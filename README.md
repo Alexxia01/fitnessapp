@@ -1,17 +1,21 @@
-# fitnessapp
+Compound
 
-A new Flutter project.
+Train smarter, not harder.
 
-## Getting Started
+Compound is a mobile app that brings workout tracking, nutrition, and cycle tracking together in one place built with Flutter and Firebase. It's a solo-developed portfolio project by me (Alexia Gurunlian), built to showcase mobile app development, from UI/UX design through to a full Firebase backend.
 
-This project is a starting point for a Flutter application.
+What it does:
+Workout tracking. Log your own workout splits and track progressive overload over time meaning the reps, weights, and rep ranges you set for yourself. Compound never prescribes a training program or tells you what to do; it tracks what you've decided to do and reflects your own history back to you, so you can see your progress and know when to push.
 
-A few resources to get you started if this is your first Flutter project:
+Nutrition tracking. Log meals and nutrition to understand how what you eat lines up with your training and your goals.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Cycle tracking. Track your menstrual cycle alongside your training and nutrition, so patterns across all three are visible in one place instead of scattered across separate apps.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Design philosophy:
+Compound is built around the idea that the app should inform, not instruct. It's not a personal trainer or a nutritionist but it's a mirror. Every number in the app comes from the user, and Compound's job is to track it, surface patterns, and get out of the way.
+
+Tech stack
+Flutter — cross-platform mobile client (iOS & Android)
+Firebase Authentication — secure email/password sign-in
+Cloud Firestore — real-time user data storage
+Material 3, with a custom teal / lilac / dark-purple design system built for the app
