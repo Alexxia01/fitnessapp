@@ -20,26 +20,27 @@ Firebase Authentication — secure email/password sign-in
 Cloud Firestore — real-time user data storage
 Material 3, with a custom teal / lilac / dark-purple design system built for the app
 
-Getting started
-bash
-# Install dependencies
-flutter pub get
+# Getting started
 
-# Connect your own Firebase project
-flutterfire configure
+    #Install dependencies
+    flutter pub get
 
-# Run on a connected device or emulator
-flutter run
+    #Connect your own Firebase project
+    flutterfire configure
+
+    #Run on a connected device or emulator
+    flutter run
 
 You'll need your own Firebase project (Authentication with Email/Password enabled, and a Cloud Firestore database) — flutterfire configure generates the firebase_options.dart file this app expects.
 
 Project structure
-lib/
-  main.dart              # App entry point, theme setup
-  screens/
-    auth/                # Sign in / sign up
-    onboarding/           # Experience-level onboarding
-  services/               # Auth + Firestore wrappers
-  models/                 # Data models
-  theme/
-    app_colors.dart       # Centralized color palette
+
+    lib/
+      main.dart              # App entry point, theme setup
+      screens/
+        auth/                # Sign in / sign up
+        onboarding/           # Experience-level onboarding
+      services/               # Auth + Firestore wrappers
+      models/                 # Data models
+      theme/
+        app_colors.dart       # Centralized color palette
