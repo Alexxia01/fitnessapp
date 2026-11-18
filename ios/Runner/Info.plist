@@ -4,6 +4,12 @@
 <dict>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Compound uses the camera to scan a food's barcode so you can log it without searching.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Compound reads your step count from Health so it can show your daily steps alongside your workouts and nutrition.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Compound does not write any data to Health.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "210794806808",
+    "project_id": "compound-app-73c90",
+    "storage_bucket": "compound-app-73c90.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210794806808:android:adeb091826bc8634f54d6d",
+        "android_client_info": {
+          "package_name": "com.example.fitnessapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHbnBa3uHahuIfJwoVRIyb23g6zOR2lac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
