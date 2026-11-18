@@ -1,5 +1,7 @@
 # Compound
 
+**Train smarter, not harder.**
+
 A fitness and nutrition tracker for Android (Flutter + Firebase) that brings workouts, food logging and daily steps into one app. Built solo as a portfolio project.
 
 <!-- Add a hero screenshot or short demo GIF here:
@@ -44,6 +46,10 @@ A fitness and nutrition tracker for Android (Flutter + Firebase) that brings wor
 | Recipe editor | Barcode scan | Targets vs remaining | Dark mode |
 |---|---|---|---|
 | *screenshot* | *screenshot* | *screenshot* | *screenshot* |
+
+## Design philosophy
+
+Compound is built around the idea that the app should inform, not instruct. It's not a personal trainer or a nutritionist, it's a mirror. It never prescribes a training program or tells you what to do: it tracks what you've decided to do and reflects your own history back to you, so you can see your progress and know when to push. Compound's job is to track it, surface patterns, and get out of the way.
 
 ## Tech stack
 
